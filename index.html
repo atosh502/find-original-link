@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Find Original Link</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>Find Original Link</header>
+    <main>
+      <section>
+        <input
+          type="url"
+          id="short-link"
+          name="short-link"
+          placeholder="Enter the shortened URL"
+        />
+        <button type="button" id="find-links-btn" name="find-links-btn">
+          Find Links
+        </button>
+        <button type="button" id="reset-btn" name="reset-btn">Reset</button>
+      </section>
+      <section id="original-link"></section>
+      <section id="error" hidden="true"></section>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>

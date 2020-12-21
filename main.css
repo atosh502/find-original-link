@@ -1,0 +1,21 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+  font-size: 1.4rem;
+}
+
+header {
+  font-size: 4rem;
+}
+
+main {
+  margin-top: 8rem;
+}
+
+input, button {
+  font-size: 1.4rem;
+}
